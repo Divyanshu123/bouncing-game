@@ -1,0 +1,87 @@
+#canvas{
+  border:5px black solid;
+  background-color: #00d9ff;
+  height:75%;
+  position: absolute;
+  width: 50%;
+
+  float:left;
+
+}
+#level-complete{
+  font-size: 4vw;
+  position:fixed;
+  color:white;
+  width:50%;
+  height:20%;
+  left: 25%;
+  right:25%;
+  top:40%;
+  bottom:40%;
+
+}
+#left,#right{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 4vw;
+
+
+}
+#left{
+  position:fixed;
+  left:5%;
+  bottom: 5%;
+  top:80%;
+}
+#right{
+  position:fixed;
+  right:5%;
+  bottom:5%;
+  top:80%;
+}
+#play{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 4vw;
+
+  position: fixed;
+
+  left:40%;
+  right:40%;
+  bottom:5%;
+  top:80%;
+}
+table{
+
+
+  height:15%;
+
+}
+td{
+  border:2px solid black;
+  width:20%;
+
+}
+#ball{
+  display:none;
+}
+
+
+#brick{
+  display:none;
+}
+body{
+  background-color: #65db9e;
+}
+#life{
+  width: 25%;
+  font-size: 3vw;
+
+  float:left;
+}
+#level{
+   width: 25%;
+   font-size: 3vw;
+
+   float:right;
+}
